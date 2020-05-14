@@ -104,6 +104,44 @@
 
 }
 
+.droptarget {
+  float: left;
+  width: 120px;
+  height: 100px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+#torso {
+  margin-top: -15px;
+}
+#shirt-space {
+  margin-top: -15px;
+}
+#legs {
+  margin-top: -15px;
+}
+#pant-space {
+  margin-top: -15px;
+}
+#feet {
+  margin-top: -15px;
+}
+#shoe-space {
+  margin-top: -15px;
+}
+
+.dragtarget {
+  width: 90px;
+  height: 30px;
+  background-color: #2196f3;
+  color: #fff;
+  text-align: center;
+}
+
 .text{
   margin-left: 465px;
 }
