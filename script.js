@@ -10,3 +10,19 @@ function random(num) {
 }
 
 button.addEventListener('click', backgroundChange);
+
+document.addEventListener("dragstart", (event) => {
+  event.dataTransfer.setData("Text", event.target.id);
+});
+
+document.addEventListener("dragover", (event) => {
+  event.preventDefault();
+});
+
+document.addEventListener("drop", (event) => {
+  event.preventDefault();
+  if ( event.target.className == "droptarget" ) {
+    var data = event.dataTransfer.getData("Text");
+    event.target.appendChild(document.getElementById(data));
+  }
+});
