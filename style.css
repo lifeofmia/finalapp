@@ -1,11 +1,10 @@
 #pig {
   position:absolute;
-  top: 150px;
-  left: 200px;
+  top: 300px;
 }
 
 #changeBackground {
-  margin-left: 500px;
+  margin-left: 45%;
 }
 
 .droptarget {
