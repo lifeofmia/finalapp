@@ -4,142 +4,19 @@
   left: 200px;
 }
 
-#bikini {
-  position: relative;
-  height: 200px;
-  left:1000px;
-  top:240px;
-  width: 170px;
-}
-
-#sombrero {
-  position: relative;
-  width: 180px;
-  height: 150px;
-  left:800px;
-}
-
-#sunglasses {
-  position: relative;
-  width: 153px;
-  height: 50px;
-  left:650px;
-  top:300px;
-}
-
-#beanie {
-  position: relative;
-  width: 150px;
-  top:420px;
-  left:490px;
-}
-
-#scarf {
-  position: relative;
-  width: 170px;
-  top: 600px;
-  left: 350px;
-}
-
-#mitten1 {
-  position: relative;
-  height:100px;
-  left:200px;
-  top:780px;
-}
-
-#mitten2 {
-  position: relative;
-  height:100px;
-  transform: rotate(90deg);
-  top:700px;
-  left:100px;
-}
-
-#hat {
-  position: relative;
-  width: 160px;
-  left:10px;
-  top:900px;
-}
-
-#shorts {
-  position: relative;
-  width:165px;
-  height:90px;
-  right: 190px;
-  top: 1000px;
-}
-
-#tank {
-  position:relative;
-  left:940px;
-  top:1040px;
-  height:142px;
-  width:344px;
-}
-
-#beret {
-  position:relative;
-  width:180px;
-  height:170px;
-  left:670px;
-  top: 1150px;
-}
-
-#skirt {
-  position:relative;
-  height:170px;
-  width:300px;
-  left:440px;
-  top:1300px;
-}
-
-#croptop {
-  position: relative;
-  width: 240px;
-  height:160px;
-  left:150px;
-  top:1400px;
-
+#changeBackground {
+  margin-left: 500px;
 }
 
 .droptarget {
   float: left;
   width: 120px;
   height: 100px;
-  margin: 15px;
+  margin: -50px;
   padding: 10px;
   border: 1px solid #aaaaaa;
   margin-left: 500px;
   margin-top: 50px;
-}
-
-#torso {
-  margin-top: -15px;
-}
-#shirt-space {
-  margin-top: -15px;
-}
-#legs {
-  margin-top: -15px;
-}
-#pant-space {
-  margin-top: -15px;
-}
-#feet {
-  margin-top: -15px;
-}
-#shoe-space {
-  margin-top: -15px;
-}
-
-.dragtarget {
-  width: 90px;
-  height: 30px;
-  background-color: #2196f3;
-  color: #fff;
-  text-align: center;
 }
 
 .text{
@@ -153,4 +30,53 @@
 .title{
   margin-left: 480px;
   color: #B770B5;
+}
+
+#shorts {
+  width: 100px;
+  height: 70px;
+}
+#tank {
+  width: 120px;
+  margin-top: -10px;
+}
+#sombrero {
+  width: 100px;
+}
+#hat {
+  width: 100px;
+}
+#beret {
+  width: 100px;
+}
+#croptop {
+  width: 110px;
+}
+#skirt {
+  width: 110px;
+}
+#sneakers {
+  width: 130px;
+}
+#sunglasses {
+    width: 100px;
+}
+#mitten1 {
+    width: 100px
+}
+#mitten2 {
+    width: 100px
+}
+
+#hat-space {
+  width: 300px;
+}
+#shirt-space {
+  width: 300px;
+}
+#shoe-space {
+  width: 300px;
+}
+#pant-space {
+  width: 300px;
 }
