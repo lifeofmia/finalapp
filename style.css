@@ -1,0 +1,81 @@
+#pig {
+  position:absolute;
+  top: 300px;
+}
+
+#changeBackground {
+  margin-left: 45%;
+}
+
+.droptarget {
+  float: left;
+  width: 120px;
+  height: 100px;
+  margin: -50px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.text{
+  text-align: center;
+}
+
+.intro{
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  color: #B770B5;
+}
+
+#shorts {
+  width: 100px;
+  height: 70px;
+}
+#tank {
+  width: 120px;
+  margin-top: -10px;
+}
+#sombrero {
+  width: 100px;
+}
+#hat {
+  width: 100px;
+}
+#beret {
+  width: 100px;
+}
+#croptop {
+  width: 110px;
+}
+#skirt {
+  width: 110px;
+}
+#sneakers {
+  width: 130px;
+}
+#sunglasses {
+    width: 100px;
+}
+#mitten1 {
+    width: 100px
+}
+#mitten2 {
+    width: 100px
+}
+
+#hat-space {
+  width: 300px;
+}
+#shirt-space {
+  width: 300px;
+}
+#shoe-space {
+  width: 300px;
+}
+#pant-space {
+  width: 300px;
+}
