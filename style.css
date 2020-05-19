@@ -1,6 +1,7 @@
 #pig {
   position:absolute;
   top: 300px;
+  z-index: 0;
 }
 
 #changeBackground {
@@ -8,16 +9,33 @@
 }
 
 .droptarget {
-  float: left;
-  width: 120px;
-  height: 100px;
+  position: absolute;
   margin: -50px;
   padding: 10px;
   border: 1px solid #aaaaaa;
-  margin-left: 500px;
-  margin-top: 50px;
+  z-index: 1;
 }
-
+#head {
+    margin-left: 430px;
+    margin-top: 100px;
+    width: 130px;
+    height: 70px;
+}
+#torso {
+    margin-top: 150px;
+    height: 90px;
+    width: 230px;
+}
+#legs {
+    margin-top: 260px;
+    height: 60px;
+    width: 230px;
+}
+#feet {
+    margin-top: 340px;
+    height: 70px;
+    width: 230px;
+}
 .text{
   text-align: center;
 }
@@ -57,25 +75,28 @@
 #sneakers {
   width: 130px;
 }
-#sunglasses {
-    width: 100px;
-}
-#mitten1 {
-    width: 100px
-}
-#mitten2 {
-    width: 100px
-}
 
 #hat-space {
+  float: left;
   width: 300px;
+    margin-left: 500px;
+    margin-top: 100px;
 }
 #shirt-space {
+    float: left;
   width: 300px;
-}
-#shoe-space {
-  width: 300px;
+    margin-left: 500px;
+    margin-top: 220px;
 }
 #pant-space {
+    float: left;
   width: 300px;
+    margin-left: 500px;
+    margin-top: 350px;
+}
+#shoe-space {
+    float: left;
+  width: 300px;
+    margin-left: 500px;
+    margin-top: 480px;
 }
