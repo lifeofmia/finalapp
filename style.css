@@ -17,22 +17,22 @@
 }
 #head {
     margin-left: 430px;
-    margin-top: 100px;
+    margin-top: 115px;
     width: 130px;
     height: 70px;
 }
 #torso {
-    margin-top: 150px;
-    height: 90px;
+    margin-top: 200px;
+    height: 110px;
     width: 230px;
 }
 #legs {
-    margin-top: 260px;
-    height: 60px;
-    width: 230px;
+    margin-top: 310px;
+    height: 85px;
+    width: 240px;
 }
 #feet {
-    margin-top: 340px;
+    margin-top: 400px;
     height: 70px;
     width: 230px;
 }
