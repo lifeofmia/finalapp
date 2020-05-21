@@ -10,31 +10,33 @@
 
 .droptarget {
   position: absolute;
-  margin: -50px;
   padding: 10px;
   border: 1px solid #aaaaaa;
   z-index: 1;
 }
 #head {
-    margin-left: 430px;
-    margin-top: 115px;
+    margin-left: 410px;
+    margin-top: 119px;
     width: 130px;
     height: 70px;
 }
 #torso {
-    margin-top: 200px;
+    margin-top: 170px;
     height: 110px;
     width: 230px;
+    margin-left: -50px;
 }
 #legs {
-    margin-top: 310px;
+    margin-top: 290px;
     height: 85px;
-    width: 240px;
+    width: 180px;
+    margin-left: -20px;
 }
 #feet {
-    margin-top: 400px;
-    height: 70px;
-    width: 230px;
+    margin-top: 360px;
+    height: 90px;
+    width: 190;
+    margin-left: -12px;
 }
 .text{
   text-align: center;
@@ -77,7 +79,7 @@
   height:170px;
 }
 #sneakers {
-  width: 130px;
+  width: 170px;
 }
 
 #hat-space {
