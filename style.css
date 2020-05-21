@@ -21,16 +21,16 @@
     height: 70px;
 }
 #torso {
-    margin-top: 170px;
+    margin-top: 180px;
     height: 110px;
     width: 230px;
-    margin-left: -50px;
+    margin-left: -100px;
 }
 #legs {
     margin-top: 290px;
     height: 85px;
     width: 180px;
-    margin-left: -20px;
+    margin-left: -80px;
 }
 #feet {
     margin-top: 360px;
@@ -85,28 +85,28 @@
 #hat-space {
   float: left;
   width: 600px;
-  height:300px;
+  height:200px;
     margin-left: 500px;
     margin-top: 100px;
 }
 #shirt-space {
     float: left;
   width: 600px;
-    height:300px;
+    height:200px;
     margin-left: 500px;
-    margin-top: 220px;
+    margin-top: 320px;
 }
 #pant-space {
     float: left;
   width: 600px;
-    height:300px;
+    height:200px;
     margin-left: 500px;
-    margin-top: 350px;
+    margin-top: 540px;
 }
 #shoe-space {
     float: left;
-    height:300px;
-  width: 300px;
+    height:200px;
+  width: 500px;
     margin-left: 500px;
-    margin-top: 480px;
+    margin-top:760px;
 }
