@@ -11,7 +11,7 @@
 .droptarget {
   position: absolute;
   padding: 10px;
-  border: 1px solid #aaaaaa;
+  border: 3px solid black;
   z-index: 1;
 }
 #head {
@@ -19,24 +19,43 @@
     margin-top: 119px;
     width: 130px;
     height: 70px;
+    border:0px;
 }
 #torso {
     margin-top: 180px;
     height: 110px;
     width: 230px;
     margin-left: -100px;
+    border:0px;
+}
+#torso2 {
+    margin-top: 150px;
+    height: 110px;
+    width: 230px;
+    margin-left:-50px;
+    border: 0px;
 }
 #legs {
     margin-top: 290px;
     height: 85px;
     width: 180px;
     margin-left: -80px;
+    border:0px;
+
+}
+#legs2 {
+    margin-top: 310px;
+    height:110px;
+    width:230px;
+    margin-left:-50px;
+    border:0px;
 }
 #feet {
     margin-top: 360px;
     height: 90px;
     width: 190;
     margin-left: -12px;
+    border:0px;
 }
 .text{
   text-align: center;
